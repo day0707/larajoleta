@@ -1,0 +1,470 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{box-sizing: border-box;}
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.contenedor2 {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.div_texto{
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    width: 80%;
+    height: 30%;
+}
+
+.titulo {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.2em;
+    font-style: normal;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.subtexto {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.div_imagenes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_1 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A1 {
+    display: flex;
+    z-index: 20;
+}
+
+.div_B1 {
+    display: flex;
+    z-index: 10;
+}
+
+.A1 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B1 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+.part2 {
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_2 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A2 {
+    display: flex;
+    z-index: 20;
+}
+
+.div_B2 {
+    display: flex;
+    z-index: 10;
+}
+
+.A2 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B2 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+
+.part3{
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_3 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A3 {
+    
+    display: flex;
+    z-index: 20;
+}
+
+.div_B3 {
+    display: flex;
+    z-index: 10;
+}
+
+.A3 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B3 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+.part4{
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_4 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A4 {
+    display: flex;
+    z-index: 20;
+}
+
+.div_B4 {
+    display: flex;
+    z-index: 10;
+}
+
+.A4 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B4 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+.part5{
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_5 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A5 {
+    display: flex;
+    z-index: 20;
+}
+
+.div_B5 {
+    display: flex;
+    z-index: 10;
+}
+
+.A5 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B5 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+.part6{
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_6 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A6 {
+    display: flex;
+    z-index: 20;
+}
+
+.div_B6 {
+    display: flex;
+    z-index: 10;
+}
+
+.A6 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B6 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+.part7{
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_7 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A7 {
+    display: flex;
+    z-index: 20;
+}
+
+.div_B7 {
+    display: flex;
+    z-index: 10;
+}
+
+.A7 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B7 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+.part8{
+    min-width: 250px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.div_8 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.div_A8 {
+    display: flex;
+    z-index: 20;
+}
+
+.div_B8 {
+    display: flex;
+    z-index: 10;
+}
+
+.A8 {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.B8 {
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    object-fit: cover;
+}
+
+@media (max-width:700px){
+    
+    .contenedor {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contenedor2 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 70%;
+    }
+    
+    
+    .titulo {
+        font-size: 2.2em;
+    }
+    
+    .subtexto{
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .div_imagenes {
+        flex-direction: column;
+        background-color: #000;
+    }
+    
+    .part1, .part2, .part3, .part4, .part5, .part6, .part7, .part8 {
+        margin-right: 0em;
+        margin-bottom: 2em;
+    }
+    
+    
+}
